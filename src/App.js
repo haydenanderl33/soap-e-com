@@ -6,7 +6,8 @@ const App = () => {
   console.log(firebase)
   return(
   <>
-  App.js
+  Checking hosting status
+  
   </>)
 }
 export default App
