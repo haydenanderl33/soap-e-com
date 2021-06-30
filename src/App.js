@@ -1,11 +1,16 @@
-import './App.css';
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import LandingPage from "./components/LandingPage/LandingPageIndex";
 
 const App = () => {
-
-  return(
-  <>
-  
-
-  </>)
-}
-export default App
+  return (
+    <>
+      <Router>
+        <Switch>
+          <Route path='/' component={LandingPage}/>
+        </Switch>
+      </Router>
+    </>
+  );
+};
+export default App;
