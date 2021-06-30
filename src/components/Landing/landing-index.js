@@ -6,7 +6,7 @@ const Landing = () => {
         <>
             <LandingContainer1>
                 <LandingWrapper1>
-                    <LandingImageBackground1/>
+                    <LandingImageBackground1 src={process.env.PUBLIC_URL + '/images/LandingPageSoapBackground.jpg'}/>
 
                 </LandingWrapper1>
             </LandingContainer1>
