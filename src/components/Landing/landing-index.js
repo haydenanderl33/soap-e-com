@@ -5,7 +5,13 @@ import {
   LandingWrapper1,
   Landing1Row1,
   Landing1Row2,
-  Landing1Row3
+  Landing1Row3,
+  LandingContainer2,
+  Landing2Col1,
+  Landing2Col2,
+  Landing2Col3,
+  Landing2Col4,
+  Landing2Col5
 
 } from "./landing-elements";
 
@@ -21,6 +27,13 @@ const Landing = () => {
           <Landing1Row3>Shop</Landing1Row3>
         </LandingWrapper1>
       </LandingContainer1>
+      <LandingContainer2>
+        <Landing2Col1>Lemonhive</Landing2Col1>
+        <Landing2Col2>Cliffex</Landing2Col2>
+        <Landing2Col3>Mount Co.</Landing2Col3>
+        <Landing2Col4>Mermaidwood</Landing2Col4>
+        <Landing2Col5>Tulipforce</Landing2Col5>
+      </LandingContainer2>
 
     </>
   );

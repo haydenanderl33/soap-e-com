@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { HiOutlineShoppingBag } from 'react-icons/hi'
 import { VscMenu } from 'react-icons/vsc'
 
-const Header = () => {
+const Header = ({data}) => {
     return (
         <>
             <HeaderContainer>
@@ -14,7 +14,7 @@ const Header = () => {
                         <Link style={{textDecoration: 'none', color: '#000'}}>About</Link>
                     </HeaderColumn1>
                     <HeaderColumn2>
-                    <Link style={{textDecoration: 'none', color: '#000'}}>Sudz'n'budz</Link></HeaderColumn2>
+                    <Link style={{textDecoration: 'none', color: '#000', fontFamily: `'Kaushan Script', cursive`}}>{data.name}</Link></HeaderColumn2>
                     <HeaderColumn3>
                     <Link style={{textDecoration: 'none', color: '#000'}}>Subscription</Link>
                         <Link style={{textDecoration: 'none', color: '#000'}}>Sign In</Link>
@@ -22,7 +22,7 @@ const Header = () => {
                     </HeaderColumn3>
                 </HeaderWrapper>
                 <MobileWrapper>
-                    <MobileColumn1>Sudz'n'budz</MobileColumn1>
+                    <MobileColumn1>{data.name}</MobileColumn1>
                     <MobileColumn2><VscMenu/></MobileColumn2>
 
                 </MobileWrapper>

@@ -51,6 +51,10 @@ export const MobileWrapper = styled.div`
   font-size: 24px;
   padding: 0 24px;
 
+  @media screen and (min-width: 800px) {
+    display: none;
+  }
+
 `
 export const MobileColumn1 = styled.div`
   height: 100%;
@@ -59,6 +63,7 @@ export const MobileColumn1 = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  font-family: 'Kaushan Script', cursive;
 
 `
 export const MobileColumn2 = styled.div`
