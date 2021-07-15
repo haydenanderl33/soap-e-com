@@ -64,7 +64,6 @@ export const LandingContainer2 = styled.div`
   font-size: 24px;
   color: #000;
   font: bold;
-  padding: 0 48px;
 
   @media screen and (max-width: 800px) {
     grid-template-rows: repeat(5, 1fr);
@@ -100,4 +99,114 @@ export const Landing2Col5 = styled.p`
   justify-content: center;
   align-items: center;
   font-family: "Englebert", sans-serif;
+`;
+export const LandingContainer3 = styled.div`
+  height: 448px;
+  width: 100%;
+  background: #ada9b7;
+  @media screen and (max-width: 800px) {
+    font-size: 24px;
+    height: auto;
+  }
+`;
+export const Landing3Row1 = styled.div`
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 128px;
+  font: bold;
+  color: #fff;
+  @media screen and (max-width: 800px) {
+    padding: 32px 0;
+    font-size: 24px;
+  }
+`;
+export const Landing3Row2 = styled.div`
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 64px;
+  text-align: center;
+  @media screen and (max-width: 800px) {
+    padding: 32px 16px;
+    font-size: 20px;
+  }
+`;
+export const Landing3Row3 = styled.div`
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 64px;
+  
+  color: #fff;
+  
+  @media screen and (max-width: 800px) {
+    padding: 32px 16px;
+    font-size: 20px;
+  }
+`;
+export const LandingContainer4 = styled.div`
+  height: 512px;
+  width: 100%;
+  background: #ada9b7;
+  color: #000;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media screen and (max-width: 800px) {
+    height: auto;
+  }
+`;
+export const Landing4Wrapper = styled.div`
+  height: 100%;
+  width: 512px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0 24px;
+
+  @media screen and (max-width: 800px) {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: none;
+    padding: 0 24px;
+    
+  }
+`;
+export const Landing4ColumnContainer = styled.div`
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(2, 0.5fr);
+  
+
+`;
+export const PurposePictureWrapper = styled.div`
+  height: 224px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+`;
+export const PurposePicture = styled.img`
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  -o-object-fit: cover;
+`;
+export const PurposeDescriptionWrapper = styled.div`
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 24px;
+`;
+export const PurposeDescription = styled(LinkRoute)`
+text-align: center;
+color: #fff;
+
 `;

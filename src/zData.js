@@ -1,5 +1,5 @@
 let data = {
-    name: 'Bubblysuds'
+    name: 'Bubblysudz'
 
 }
 export default data
